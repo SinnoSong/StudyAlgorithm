@@ -1,4 +1,4 @@
-namespace chapter1
+﻿namespace study_algorithm_csharp.chapter1
 {
     public static class GcdClass
     {
