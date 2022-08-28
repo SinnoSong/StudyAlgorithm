@@ -1,4 +1,4 @@
-package chapter1;
+package chapter1.section1;
 
 public class Gcd {
     public static int gcd(int p, int q) {
