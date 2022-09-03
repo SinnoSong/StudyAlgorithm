@@ -1,8 +1,8 @@
-package chapter1.section1;
+package chapter1.section1.exercise;
 
 import java.util.Random;
 
-public class BooleanArray {
+public class Exercise11 {
     public static void main(String[] args) {
         boolean[][] array = new boolean[10][3];
         Random random = new Random();

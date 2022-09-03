@@ -1,6 +1,6 @@
-package chapter1.section1;
+package chapter1.section1.exercise;
 
-public class GetLg {
+public class Exercise14 {
     public static void main(String[] args) {
         System.out.println(lg(17));
     }

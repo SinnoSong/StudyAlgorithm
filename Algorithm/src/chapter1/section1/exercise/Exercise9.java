@@ -1,6 +1,6 @@
-package chapter1.section1;
+package chapter1.section1.exercise;
 
-public class BinaryStringTest {
+public class Exercise9 {
     public static void main(String[] args) {
         String s = "";
         int N = 12321;
