@@ -1,8 +1,8 @@
-package chapter1.section1;
+package chapter1.section1.exercise;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class StdOutTest {
+public class Exercise7 {
     public static void main(String[] args) {
         double t = 9.0;
         while (Math.abs(t - 9.0 / t) > .001) {

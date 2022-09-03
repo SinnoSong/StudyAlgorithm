@@ -1,6 +1,6 @@
-package chapter1.section1;
+package chapter1.section1.exercise;
 
-public class PrintTest {
+public class Exercise8 {
     public static void main(String[] args) {
         System.out.println('b');
         // 转换为数字
