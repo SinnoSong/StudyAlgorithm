@@ -3,7 +3,7 @@ package chapter1.section1.exercise;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Exericise21 {
+public class Exercise21 {
     public static void main(String[] args) {
         StdOut.printf("%8s %7s %7s %7s", "Names", "Number1", "Number2", "Result\n");
 
