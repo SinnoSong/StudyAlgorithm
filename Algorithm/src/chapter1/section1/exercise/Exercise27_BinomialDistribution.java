@@ -2,7 +2,7 @@ package chapter1.section1.exercise;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class Exercise27 {
+public class Exercise27_BinomialDistribution {
 
     private static long count = 0;
 

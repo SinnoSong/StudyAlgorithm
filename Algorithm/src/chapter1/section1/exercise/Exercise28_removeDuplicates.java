@@ -6,7 +6,7 @@ import java.util.Set;
 
 import edu.princeton.cs.algs4.StdOut;
 
-public class Exercise28 {
+public class Exercise28_removeDuplicates {
     public static void main(String[] args) {
         int[] whiteList = { 1, 3, 4, 5, 5, 6, 6, 7, 7, 9 };
         int[] keys = { 1, 4, 6, 7, 8, 9 };
