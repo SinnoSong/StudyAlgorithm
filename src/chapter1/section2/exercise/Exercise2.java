@@ -28,8 +28,8 @@ public class Exercise2 {
 
     private static void getIntervals(Interval1D[] intervals) {
         for (int i = 0; i < intervals.length; i++) {
-            double firstValue = StdRandom.uniformDouble();
-            double secondValue = StdRandom.uniformDouble();
+            double firstValue = StdRandom.uniform();
+            double secondValue = StdRandom.uniform();
 
             if (firstValue > secondValue) {
                 double temp = firstValue;

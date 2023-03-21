@@ -34,8 +34,8 @@ public class Exercise1 {
         StdDraw.setPenRadius(0.015);
 
         for (int i = 0; i < point2ds.length; i++) {
-            double pointX = StdRandom.uniformDouble();
-            double pointY = StdRandom.uniformDouble();
+            double pointX = StdRandom.uniform();
+            double pointY = StdRandom.uniform();
 
             Point2D point = new Point2D(pointX, pointY);
             point.draw();

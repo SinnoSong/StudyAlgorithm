@@ -59,13 +59,13 @@ public class Exercise3 {
 
             interval2ds[i] = interval;
 
-            intervalMap.put(interval, new Interval1D[] { width, height });
+            intervalMap.put(interval, new Interval1D[]{width, height});
         }
     }
 
     private static Interval1D generateInterval1d(double min, double max) {
-        double firstValue = StdRandom.uniformDouble(min, max);
-        double secondValue = StdRandom.uniformDouble(min, max);
+        double firstValue = StdRandom.uniform(min, max);
+        double secondValue = StdRandom.uniform(min, max);
         if (firstValue > secondValue) {
             double temp = firstValue;
             firstValue = secondValue;

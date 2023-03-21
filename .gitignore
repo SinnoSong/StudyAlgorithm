@@ -29,4 +29,8 @@ hs_err_pid*
 #vscode
 *vscode
 .vs
+
+#idea
 /.idea/
+*.iml
+/out/
