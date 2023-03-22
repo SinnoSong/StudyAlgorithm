@@ -10,9 +10,9 @@ public class Exercise13 {
                 arrayB[i][j] = arrayA[j][i];
             }
         }
-        for (int i = 0; i < arrayB.length; i++) {
+        for (int[] ints : arrayB) {
             for (int j = 0; j < arrayB[0].length; j++) {
-                System.out.println(arrayB[i][j]);
+                System.out.println(ints[j]);
             }
         }
     }

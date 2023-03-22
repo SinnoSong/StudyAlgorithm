@@ -7,7 +7,8 @@ public class Exercise3 {
         int int3 = Integer.parseInt(args[2]);
         if (int1 == int2 && int2 == int3) {
             System.out.println("equal");
+        } else {
+            System.out.println("not equal");
         }
-        System.out.println("not equal");
     }
 }

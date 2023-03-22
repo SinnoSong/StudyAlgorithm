@@ -11,11 +11,10 @@ public class Exercise11 {
                 array[i][j] = random.nextBoolean();
             }
         }
-        System.out.println("\t1\t2\t3");
-        for (int i = 0; i < array.length; i++) {
-            System.out.print("第" + i + "行：");
-            for (int j = 0; j < array[i].length; j++) {
-                System.out.print(array[i][j] ? "*\t" : " \t");
+        System.out.println("\t\t1\t2\t3");
+        for (boolean[] booleans : array) {
+            for (boolean aBoolean : booleans) {
+                System.out.print(aBoolean ? "*\t" : " \t");
             }
             System.out.println();
         }

@@ -10,4 +10,13 @@ public class Exercise9 {
         }
         System.out.println(s);
     }
+
+    private static String intToBinary(int n) {
+        StringBuilder result = new StringBuilder();
+        while (n > 0) {
+            result.insert(0, n % 2);
+            n /= 2;
+        }
+        return result.toString();
+    }
 }
