@@ -14,6 +14,7 @@ public class Stack<T> implements Iterable<T> {
 
     public boolean isEmpty() {
         return size == 0;
+        // 或 first == null
     }
 
     public int getSize() {
